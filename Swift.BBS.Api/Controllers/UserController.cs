@@ -6,7 +6,7 @@ using Swift.BBS.Model.Models;
 
 namespace Swift.BBS.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class UserController:ControllerBase
     {
@@ -23,6 +23,14 @@ namespace Swift.BBS.Api.Controllers
         public async Task<List<UserInfo>> GetUser(int id)
         {
             return await userInfoService.GetListAsync(d => d.Id == id);
+        }
+        
+        
+        
+        [HttpGet(Name = "KY")]
+        public  string Kyname()
+        {
+            return  "123454";
         }
     }
 }

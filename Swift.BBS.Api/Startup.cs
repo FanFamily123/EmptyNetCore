@@ -40,6 +40,7 @@ namespace Swift.BBS.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "Swift.BBS.Api", Version = "v1"});
@@ -120,12 +121,21 @@ namespace Swift.BBS.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Swift.BBS.Api v1"));
             }
-
+            
             app.UseHttpsRedirection();
+            
 
             app.UseRouting();
+            
 
             app.UseAuthorization();
+            
+            app.UseCors(options => options
+                .AllowAnyHeader()               // 确保策略允许任何标头
+                .AllowAnyMethod()               // 确保策略允许任何方法
+                .SetIsOriginAllowed(o => true)  // 设置指定的isOriginAllowed为基础策略
+                .AllowCredentials());           // 将策略设置为允许凭据。
+
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

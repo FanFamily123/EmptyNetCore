@@ -7,7 +7,7 @@ using Swift.BBS.Services;
 
 namespace Swift.BBS.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ArticleController:ControllerBase
     {
