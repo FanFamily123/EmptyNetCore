@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Swift.BBS.IRepositories/1.0.0": {
+        "dependencies": {
+          "Swift.BBS.Model": "1.0.0"
+        },
+        "runtime": {
+          "Swift.BBS.IRepositories.dll": {}
+        }
+      },
+      "Swift.BBS.Model/1.0.0": {
+        "runtime": {
+          "Swift.BBS.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Swift.BBS.IRepositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Swift.BBS.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

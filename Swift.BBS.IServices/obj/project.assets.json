@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Swift.BBS.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Swift.BBS.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Swift.BBS.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Swift.BBS.Model/1.0.0": {
+      "type": "project",
+      "path": "../Swift.BBS.Model/Swift.BBS.Model.csproj",
+      "msbuildProject": "../Swift.BBS.Model/Swift.BBS.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Swift.BBS.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/fanzhen/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.IServices/Swift.BBS.IServices.csproj",
+      "projectName": "Swift.BBS.IServices",
+      "projectPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.IServices/Swift.BBS.IServices.csproj",
+      "packagesPath": "/Users/fanzhen/.nuget/packages/",
+      "outputPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.IServices/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/fanzhen/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj": {
+              "projectPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
