@@ -12,9 +12,10 @@ namespace Swift.BBS.Extension
         public UserInfoProfile()
         {
          
+            CreateMap<CreateUserInfoInputDto, UserInfo>();
 
             CreateMap<UserInfo, UserInfoDto>();
-         
+            CreateMap<UserInfo, UserInfoDetailsDto>();
 
 
           

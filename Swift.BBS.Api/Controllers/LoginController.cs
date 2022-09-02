@@ -8,7 +8,7 @@ namespace Swift.BBS.Api.Controllers
     /// <summary>
     /// 登录
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class LoginController:ControllerBase
     {
@@ -24,6 +24,11 @@ namespace Swift.BBS.Api.Controllers
                 token = jwtstr
             });
         }
+        
+        
+        
+        
+        
         
     }
 }
