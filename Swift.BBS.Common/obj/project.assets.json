@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -971,6 +996,15 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
       "System.Text.RegularExpressions/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -1078,6 +1112,32 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -3722,6 +3782,25 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.RegularExpressions/4.1.0": {
       "sha512": "i88YCXpRTjCnoSQZtdlHkAOx4KNNik4hMy83n0+Ftlb7jvV6ZiZWMpnEZHhjBp6hQVh8gWd/iKNPzlPF7iyA2g==",
       "type": "package",
@@ -4104,6 +4183,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 5.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 5.0.0",
@@ -4112,29 +4192,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/fanzhen/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\van.fan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Common/Swift.BBS.Common.csproj",
+      "projectUniqueName": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\Swift.BBS.Common.csproj",
       "projectName": "Swift.BBS.Common",
-      "projectPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Common/Swift.BBS.Common.csproj",
-      "packagesPath": "/Users/fanzhen/.nuget/packages/",
-      "outputPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Common/obj/",
+      "projectPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\Swift.BBS.Common.csproj",
+      "packagesPath": "C:\\Users\\van.fan\\.nuget\\packages\\",
+      "outputPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "/Users/fanzhen/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\van.fan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4153,6 +4235,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[5.0.0, )"
@@ -4189,7 +4275,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hQLTfDiFlVQrVCi7v+XJdvDwUaEIL3t9gSPoh7ZcU0LrzOTloTP/H4LUrkAVBibpYtjfeNJ0fRh4McTJsDXMwQ==",
+  "dgSpecHash": "WQihg9SWxm+T9+JMcIn8+pXdO4GR/6SM8B4olqSd4raH4E2SnF0I41EZ3+vKsh7k0zCONkC5JVkstv0oZlbm4Q==",
   "success": true,
-  "projectFilePath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.IRepositories/Swift.BBS.IRepositories.csproj",
+  "projectFilePath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.IRepositories\\Swift.BBS.IRepositories.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

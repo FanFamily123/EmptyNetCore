@@ -46,3 +46,15 @@
 /Users/fanzhen/Van/netcore练习/第八章练习/Swift.BBS.Api/Swift.BBS.Model/obj/Debug/net5.0/Swift.BBS.Model.dll
 /Users/fanzhen/Van/netcore练习/第八章练习/Swift.BBS.Api/Swift.BBS.Model/obj/Debug/net5.0/ref/Swift.BBS.Model.dll
 /Users/fanzhen/Van/netcore练习/第八章练习/Swift.BBS.Api/Swift.BBS.Model/obj/Debug/net5.0/Swift.BBS.Model.pdb
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\bin\Debug\net5.0\Swift.BBS.Model.deps.json
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\bin\Debug\net5.0\Swift.BBS.Model.dll
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\bin\Debug\net5.0\ref\Swift.BBS.Model.dll
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\bin\Debug\net5.0\Swift.BBS.Model.pdb
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.csproj.AssemblyReference.cache
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.AssemblyInfoInputs.cache
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.AssemblyInfo.cs
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.csproj.CoreCompileInputs.cache
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.dll
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\ref\Swift.BBS.Model.dll
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Model\obj\Debug\net5.0\Swift.BBS.Model.pdb

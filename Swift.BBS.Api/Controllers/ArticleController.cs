@@ -62,6 +62,29 @@ namespace Swift.BBS.Api.Controllers
 
 
         /// <summary>
+        /// 创建文章
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<MessageModel<string>> CreateAsync1(CreateArticleInputDto input)
+        {
+          
+
+            var entity = mapper.Map<Article>(input);
+            entity.CreateTime = DateTime.Now;
+            entity.CreateUserId = 3;
+            await articleService.InsertAsync(entity, true);
+
+            return new MessageModel<string>()
+            {
+                success = true,
+                msg = "创建成功"
+            };
+        }
+
+
+
+        /// <summary>
         /// 分页获取文章列表
         /// </summary>
         /// <param name="page"></param>

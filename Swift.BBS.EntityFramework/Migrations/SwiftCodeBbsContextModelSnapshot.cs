@@ -19,45 +19,7 @@ namespace Swift.BBS.EntityFramework.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("Swift.BBS.Model.Models.Article", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Content")
-                        .HasMaxLength(2048)
-                        .HasColumnType("nvarchar(2048)");
-
-                    b.Property<string>("Cover")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreateTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("CreateUserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Tag")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.Property<string>("Title")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.Property<int>("Traffic")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CreateUserId");
-
-                    b.ToTable("Articles");
-                });
-
-            modelBuilder.Entity("Swift.BBS.Model.Models.UserInfo", b =>
+            modelBuilder.Entity("Swift.BBS.Model.Models.Images", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -67,41 +29,27 @@ namespace Swift.BBS.EntityFramework.Migrations
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Email")
+                    b.Property<int>("DeleteFlag")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("OverdueTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ScanName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("HeadPortrait")
+                    b.Property<string>("ScanPic")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Introduction")
+                    b.Property<string>("ScanType")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LoginName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LoginPassWord")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Phone")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserName")
+                    b.Property<string>("ScanUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserInfo");
-                });
-
-            modelBuilder.Entity("Swift.BBS.Model.Models.Article", b =>
-                {
-                    b.HasOne("Swift.BBS.Model.Models.UserInfo", "CreateUser")
-                        .WithMany()
-                        .HasForeignKey("CreateUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("CreateUser");
+                    b.ToTable("Images");
                 });
 #pragma warning restore 612, 618
         }

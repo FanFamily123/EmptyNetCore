@@ -16,7 +16,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Quartz.HostedService;
 using Swashbuckle.AspNetCore.Filters;
+using Swift.BBS.Api.Jobs;
 using Swift.BBS.Common.Helper;
 using Swift.BBS.Extension;
 using Swift.BBS.IRepositories.Base;
@@ -100,12 +102,15 @@ namespace Swift.BBS.Api
 
        
             services.AddDbContext<SwiftCodeBbsContext>(o=>o.UseLazyLoadingProxies()
-                .UseSqlServer(@"Data Source=127.0.0.1;Initial Catalog=SwiftCodeBbs5;User ID=sa;Password=qwer1234..."));
+                .UseSqlServer(@"Data Source=127.0.0.1;Initial Catalog=SwiftCodeBbs6;User ID=sa;Password=qwer1234..."));
             
             services.AddAutoMapperSetup();
+            services.AddQuartzHostedService(Configuration);
+            services.AddSingleton<TexJob>();
+            
 
         }
-        
+
         // 注意在Program.CreateHostBuilder，添加Autofac服务工厂
         public void ConfigureContainer(ContainerBuilder builder){
             builder.RegisterModule<AutofacModuleRegister>();

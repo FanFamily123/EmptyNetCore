@@ -17,10 +17,13 @@ namespace Swift.BBS.Extension
             // //注入泛型使用RegisterGeneric
             // builder.RegisterGeneric(typeof(BaseRepository<>)).As(typeof(IBaseRepository<>)).InstancePerDependency();
 
+
+            //注册job
+
             #endregion
-          
-            
-           
+
+
+
 
             #region 第二种方式
 

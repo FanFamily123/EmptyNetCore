@@ -8,8 +8,9 @@ namespace Swift.BBS.Extension
         {
             return new MapperConfiguration(cfg =>
             {
-                  cfg.AddProfile(new UserInfoProfile());
+                cfg.AddProfile(new UserInfoProfile());
                 cfg.AddProfile(new ArticlePorfile());
+                cfg.AddProfile(new ImagesProfile());
                 // cfg.AddProfile(new QuestionProfile());
             });
         }

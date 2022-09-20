@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "08adf151-6eb7-4a48-9c9e-cb74292e3561": {
+      "ProjectGuid": "08adf151-6eb7-4a48-9c9e-cb74292e3561",
+      "DisplayName": "Swift.BBS.EntityFramework",
+      "ColorIndex": 0
+    },
+    "802fc0ab-2bd4-4a62-9de1-9513239f155c": {
+      "ProjectGuid": "802fc0ab-2bd4-4a62-9de1-9513239f155c",
+      "DisplayName": "Swift.BBS.Repositories",
+      "ColorIndex": 1
+    },
+    "e24e558a-8dae-4683-be44-3505b2c3ced1": {
+      "ProjectGuid": "e24e558a-8dae-4683-be44-3505b2c3ced1",
+      "DisplayName": "Swift.BBS.Api",
+      "ColorIndex": 2
+    },
+    "e3bfabb8-3612-4496-ac81-16c7eb825972": {
+      "ProjectGuid": "e3bfabb8-3612-4496-ac81-16c7eb825972",
+      "DisplayName": "Swift.BBS.Common",
+      "ColorIndex": 3
+    },
+    "2bbf977f-1f2f-4f40-ad5b-a5f289bdd2a9": {
+      "ProjectGuid": "2bbf977f-1f2f-4f40-ad5b-a5f289bdd2a9",
+      "DisplayName": "Swift.BBS.Model",
+      "ColorIndex": 4
+    },
+    "30427859-926e-43da-b730-4435c8fe385c": {
+      "ProjectGuid": "30427859-926e-43da-b730-4435c8fe385c",
+      "DisplayName": "Swift.BBS.Extension",
+      "ColorIndex": 5
+    },
+    "76687016-96ed-4a04-9c1a-6c87d1a79d16": {
+      "ProjectGuid": "76687016-96ed-4a04-9c1a-6c87d1a79d16",
+      "DisplayName": "Swift.BBS.Services",
+      "ColorIndex": 6
+    },
+    "0ea42d8f-3a18-4892-bab5-2cb6c2e7dce5": {
+      "ProjectGuid": "0ea42d8f-3a18-4892-bab5-2cb6c2e7dce5",
+      "DisplayName": "Swift.BBS.IServices",
+      "ColorIndex": 7
+    },
+    "8361cb31-bd51-4b69-9f1d-90db04b4a59f": {
+      "ProjectGuid": "8361cb31-bd51-4b69-9f1d-90db04b4a59f",
+      "DisplayName": "Swift.BBS.IRepositories",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

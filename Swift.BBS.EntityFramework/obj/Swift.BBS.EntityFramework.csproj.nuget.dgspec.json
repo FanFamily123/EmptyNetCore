@@ -1,37 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.EntityFramework/Swift.BBS.EntityFramework.csproj": {}
+    "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.EntityFramework\\Swift.BBS.EntityFramework.csproj": {}
   },
   "projects": {
-    "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.EntityFramework/Swift.BBS.EntityFramework.csproj": {
+    "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.EntityFramework\\Swift.BBS.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.EntityFramework/Swift.BBS.EntityFramework.csproj",
+        "projectUniqueName": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.EntityFramework\\Swift.BBS.EntityFramework.csproj",
         "projectName": "Swift.BBS.EntityFramework",
-        "projectPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.EntityFramework/Swift.BBS.EntityFramework.csproj",
-        "packagesPath": "/Users/fanzhen/.nuget/packages/",
-        "outputPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.EntityFramework/obj/",
+        "projectPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.EntityFramework\\Swift.BBS.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\van.fan\\.nuget\\packages\\",
+        "outputPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/fanzhen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\van.fan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj": {
-                "projectPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj"
+              "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Model\\Swift.BBS.Model.csproj": {
+                "projectPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Model\\Swift.BBS.Model.csproj"
               }
             }
           }
@@ -76,30 +78,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj": {
+    "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Model\\Swift.BBS.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj",
+        "projectUniqueName": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Model\\Swift.BBS.Model.csproj",
         "projectName": "Swift.BBS.Model",
-        "projectPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/Swift.BBS.Model.csproj",
-        "packagesPath": "/Users/fanzhen/.nuget/packages/",
-        "outputPath": "/Users/fanzhen/Van/netcore练习/git地址/Swift.BBS.Api/Swift.BBS.Model/obj/",
+        "projectPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Model\\Swift.BBS.Model.csproj",
+        "packagesPath": "C:\\Users\\van.fan\\.nuget\\packages\\",
+        "outputPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/fanzhen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\van.fan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
