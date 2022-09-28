@@ -23,6 +23,7 @@ using Swift.BBS.Common.Helper;
 using Swift.BBS.Extension;
 using Swift.BBS.IRepositories.Base;
 using Swift.BBS.IServices;
+
 using Swift.BBS.Repositories.Base;
 using Swift.BBS.Repositories.EfContext;
 using Swift.BBS.Services;
@@ -96,6 +97,11 @@ namespace Swift.BBS.Api
             services.AddSingleton(new Appsettings(Configuration));
             // services.AddSingleton<IArticleService,ArticleService>();
             // services.AddSingleton<IUserInfoService,UserInfoService>();
+            Console.WriteLine("注入tex");
+            services.AddSingleton<TexJob>();
+         //   services.AddSingleton<TestJob>();
+
+            Console.WriteLine("注入结束tex");
 
             //注入基础服务仓储
             services.AddSingleton(typeof(IBaseRepository<>),typeof(BaseRepository<>));
@@ -103,11 +109,12 @@ namespace Swift.BBS.Api
        
             services.AddDbContext<SwiftCodeBbsContext>(o=>o.UseLazyLoadingProxies()
                 .UseSqlServer(@"Data Source=127.0.0.1;Initial Catalog=SwiftCodeBbs6;User ID=sa;Password=qwer1234..."));
-            
+
+            services.AddLogging();
             services.AddAutoMapperSetup();
             services.AddQuartzHostedService(Configuration);
-            services.AddSingleton<TexJob>();
             
+
 
         }
 
@@ -143,6 +150,10 @@ namespace Swift.BBS.Api
 
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
+          
+
+
         }
     }
 }

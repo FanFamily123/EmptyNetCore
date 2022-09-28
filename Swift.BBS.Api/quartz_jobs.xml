@@ -6,7 +6,7 @@
 	<processing-directives>
 		<overwrite-existing-data>true</overwrite-existing-data>
 	</processing-directives>
-
+	
 	<schedule>
 		<job>			
 			<name>TexJob</name>
@@ -29,8 +29,28 @@
 			</simple>
 		</trigger>
 
-		
-	
+
+		<job>
+			<name>TestJob</name>
+			<group>TestJobGroup</group>
+			<description>SyncOrderJob Service Description</description>
+			<job-type>Swift.BBS.Api.Jobs.TestJob,Swift.BBS.Api</job-type>
+			<durable>true</durable>
+			<recover>false</recover>
+		</job>
+		<trigger>
+			<simple>
+				<name>TestJobTrigger</name>
+				<group>TestJobGroup</group>
+				<description>SyncOrderJob Trigger Description</description>
+				<job-name>TestJob</job-name>
+				<job-group>TestJobGroup</job-group>
+				<repeat-count>-1</repeat-count>
+				<!--每间隔1s执行一次-->
+				<repeat-interval>1000</repeat-interval>
+			</simple>
+		</trigger>
+
 
 
 

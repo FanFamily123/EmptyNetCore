@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K+L47S+WHAlH0IHkA9k1LTJ64C+M1rjhK2mWp3m1UMcXRm+kdph35cgmbC56A6Wfg4J+cF4qiRfnQuyqS2NH9g==",
+  "dgSpecHash": "BrNFYxHgPfnxxI5KVgPU7P/MlFp6Y2SqOQSh+9+1nx588FJWaOaUwoR8JdH7fYWZKH4BO9OdGcakvNsho3AQew==",
   "success": true,
   "projectFilePath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Api\\Swift.BBS.Api.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\van.fan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\van.fan\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\van.fan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\van.fan\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
     "C:\\Users\\van.fan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\van.fan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\van.fan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

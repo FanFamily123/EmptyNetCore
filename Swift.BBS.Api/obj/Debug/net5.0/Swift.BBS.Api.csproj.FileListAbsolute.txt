@@ -487,4 +487,6 @@ D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\Quartz.dll
 D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\Quartz.HostedService.dll
 D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\Quartz.Jobs.dll
 D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\Quartz.Plugins.dll
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\log4net.config
+D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\log4net.dll
 D:\Van\Code\vancode\EmptyNetCore\Swift.BBS.Api\bin\Debug\net5.0\quartz_jobs.xml

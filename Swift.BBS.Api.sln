@@ -1,22 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.Api", "Swift.BBS.Api\Swift.BBS.Api.csproj", "{E24E558A-8DAE-4683-BE44-3505B2C3CED1}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.Api", "Swift.BBS.Api\Swift.BBS.Api.csproj", "{E24E558A-8DAE-4683-BE44-3505B2C3CED1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.Common", "Swift.BBS.Common\Swift.BBS.Common.csproj", "{E3BFABB8-3612-4496-AC81-16C7EB825972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.Common", "Swift.BBS.Common\Swift.BBS.Common.csproj", "{E3BFABB8-3612-4496-AC81-16C7EB825972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.Model", "Swift.BBS.Model\Swift.BBS.Model.csproj", "{2BBF977F-1F2F-4F40-AD5B-A5F289BDD2A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.Model", "Swift.BBS.Model\Swift.BBS.Model.csproj", "{2BBF977F-1F2F-4F40-AD5B-A5F289BDD2A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.IRepositories", "Swift.BBS.IRepositories\Swift.BBS.IRepositories.csproj", "{8361CB31-BD51-4B69-9F1D-90DB04B4A59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.IRepositories", "Swift.BBS.IRepositories\Swift.BBS.IRepositories.csproj", "{8361CB31-BD51-4B69-9F1D-90DB04B4A59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.IServices", "Swift.BBS.IServices\Swift.BBS.IServices.csproj", "{0EA42D8F-3A18-4892-BAB5-2CB6C2E7DCE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.IServices", "Swift.BBS.IServices\Swift.BBS.IServices.csproj", "{0EA42D8F-3A18-4892-BAB5-2CB6C2E7DCE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.Repositories", "Swift.BBS.Repositories\Swift.BBS.Repositories.csproj", "{802FC0AB-2BD4-4A62-9DE1-9513239F155C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.Repositories", "Swift.BBS.Repositories\Swift.BBS.Repositories.csproj", "{802FC0AB-2BD4-4A62-9DE1-9513239F155C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.Services", "Swift.BBS.Services\Swift.BBS.Services.csproj", "{76687016-96ED-4A04-9C1A-6C87D1A79D16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.Services", "Swift.BBS.Services\Swift.BBS.Services.csproj", "{76687016-96ED-4A04-9C1A-6C87D1A79D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.Extension", "Swift.BBS.Extension\Swift.BBS.Extension.csproj", "{30427859-926E-43DA-B730-4435C8FE385C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.Extension", "Swift.BBS.Extension\Swift.BBS.Extension.csproj", "{30427859-926E-43DA-B730-4435C8FE385C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.BBS.EntityFramework", "Swift.BBS.EntityFramework\Swift.BBS.EntityFramework.csproj", "{08ADF151-6EB7-4A48-9C9E-CB74292E3561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.BBS.EntityFramework", "Swift.BBS.EntityFramework\Swift.BBS.EntityFramework.csproj", "{08ADF151-6EB7-4A48-9C9E-CB74292E3561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,5 +63,11 @@ Global
 		{08ADF151-6EB7-4A48-9C9E-CB74292E3561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08ADF151-6EB7-4A48-9C9E-CB74292E3561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08ADF151-6EB7-4A48-9C9E-CB74292E3561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {133753E7-ACAB-4FEA-9495-31CBFB926FE3}
 	EndGlobalSection
 EndGlobal

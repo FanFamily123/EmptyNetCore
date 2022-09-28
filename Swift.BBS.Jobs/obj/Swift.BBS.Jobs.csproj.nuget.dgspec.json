@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\Swift.BBS.Common.csproj": {}
+    "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Jobs\\Swift.BBS.Jobs.csproj": {}
   },
   "projects": {
     "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\Swift.BBS.Common.csproj": {
@@ -71,6 +71,78 @@
             "log4net": {
               "target": "Package",
               "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Jobs\\Swift.BBS.Jobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Jobs\\Swift.BBS.Jobs.csproj",
+        "projectName": "Swift.BBS.Jobs",
+        "projectPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Jobs\\Swift.BBS.Jobs.csproj",
+        "packagesPath": "C:\\Users\\van.fan\\.nuget\\packages\\",
+        "outputPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Jobs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\van.fan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\Swift.BBS.Common.csproj": {
+                "projectPath": "D:\\Van\\Code\\vancode\\EmptyNetCore\\Swift.BBS.Common\\Swift.BBS.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Quartz.HostedService": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

@@ -45,7 +45,17 @@
       "ProjectGuid": "8361cb31-bd51-4b69-9f1d-90db04b4a59f",
       "DisplayName": "Swift.BBS.IRepositories",
       "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "2820e435-bdc0-43ff-9f2b-a1dc6b8c686e": {
+      "ProjectGuid": "2820e435-bdc0-43ff-9f2b-a1dc6b8c686e",
+      "DisplayName": "Swift.BBS.Jobs",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

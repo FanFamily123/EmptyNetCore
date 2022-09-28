@@ -19,7 +19,6 @@ namespace Swift.BBS.Extension
 
 
             //注册job
-
             #endregion
 
 
@@ -39,22 +38,27 @@ namespace Swift.BBS.Extension
             var basePath = AppContext.BaseDirectory;
             var servicesDllFile = Path.Combine(basePath, "Swift.BBS.Services.dll");
             var repositoryDllFile = Path.Combine(basePath, "Swift.BBS.Repositories.dll");
+          
             if (!(File.Exists(servicesDllFile) && File.Exists(repositoryDllFile)))
             {
-                var msg = "Repositories.dll和Services.dll 丢失。";
+                var msg = "Repositories.dll和Services.dll丢失。";
                 throw new Exception(msg);
             }
+
+          
+
             var assemblysServices = Assembly.LoadFrom(servicesDllFile);
             builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces();
             
             var assemblysRepository = Assembly.LoadFrom(repositoryDllFile);
             builder.RegisterAssemblyTypes(assemblysRepository).AsImplementedInterfaces();
-            
+
+         
 
             #endregion
-          
 
-            
+
+
         }
     
     }
